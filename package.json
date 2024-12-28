@@ -1,35 +1,51 @@
 {
-	"name": "code-companion-react-package-template",
-	"version": "1.0.0",
-	"main": "index.js",
-	"type": "module",
-	"scripts": {
-		"test": "vitest",
-		"build": "rollup -c"
-	},
-	"keywords": [],
-	"author": "",
-	"license": "ISC",
-	"description": "",
-	"devDependencies": {
-		"@biomejs/biome": "1.9.4",
-		"@rollup/plugin-typescript": "^12.1.2",
-		"@testing-library/jest-dom": "^6.6.3",
-		"@testing-library/react": "^16.1.0",
-		"@types/react": "^19.0.2",
-		"@types/react-dom": "^19.0.2",
-		"glob": "^11.0.0",
-		"happy-dom": "^15.11.7",
-		"react": "^19.0.0",
-		"react-dom": "^19.0.0",
-		"rollup": "^4.29.1",
-		"tslib": "^2.8.1",
-		"typescript": "^5.7.2",
-		"vite": "^5.4.11",
-		"vitest": "^2.1.8"
-	},
-	"peerDependencies": {
-		"react": "^19.0.0",
-		"react-dom": "^19.0.0"
-	}
+  "name": "code-companion-react-package-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "vitest",
+    "build": "rollup -c",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@chromatic-com/storybook": "^3.2.3",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "@storybook/addon-essentials": "^8.4.7",
+    "@storybook/addon-interactions": "^8.4.7",
+    "@storybook/addon-onboarding": "^8.4.7",
+    "@storybook/blocks": "^8.4.7",
+    "@storybook/react": "^8.4.7",
+    "@storybook/react-vite": "^8.4.7",
+    "@storybook/test": "^8.4.7",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.1.0",
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "autoprefixer": "^10.4.20",
+    "glob": "^11.0.0",
+    "happy-dom": "^15.11.7",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "rollup": "^4.29.1",
+    "rollup-plugin-postcss": "^4.0.2",
+    "storybook": "^8.4.7",
+    "tslib": "^2.8.1",
+    "typescript": "^5.7.2",
+    "vite": "^5.4.11",
+    "vitest": "^2.1.8"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1"
+  }
 }
