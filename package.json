@@ -1,13 +1,16 @@
 {
-	"name": "code-companion-react-package-template",
+	"name": "@code-companion/react-component-library-template",
 	"version": "1.0.0",
 	"main": "index.js",
 	"type": "module",
 	"scripts": {
 		"test": "vitest",
+		"test:watch": "vitest",
 		"build": "rollup -c",
 		"storybook": "storybook dev -p 6006",
-		"build-storybook": "storybook build"
+		"build-storybook": "storybook build",
+		"lint": "biome lint",
+		"format": "biome format"
 	},
 	"keywords": [],
 	"author": "",
