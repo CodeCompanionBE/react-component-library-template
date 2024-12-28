@@ -1,11 +1,31 @@
 import Button from './index';
 import * as ButtonStories from './button.stories';
-import { Canvas, Meta } from '@storybook/blocks';
+import { Canvas, Meta, Controls } from '@storybook/blocks';
 
 # Button component
 
 A reusable button component which includes styles and allows all props.
 This button has a type of `button` by default.
+
+## CSS Variables
+
+The button component uses the following CSS variables:
+
+    - --padding-default (top/bottom padding)
+    - --padding-double (left/right padding)
+    - --border-radius-default (border radius)
+    - --font-size-default (font size)
+    - --button-font-weight (font weight)
+    - --color-primary (background primary button)
+    - --color-secondary (background secondary button)
+
+<Meta of={ButtonStories} />
+
+
+## Default
+<Controls />
+
+<Canvas of={ButtonStories.Default} />
 
 ## Primary
 
@@ -14,3 +34,4 @@ This button has a type of `button` by default.
 ## Secondary
 
 <Canvas of={ButtonStories.Secondary} />
+

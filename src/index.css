@@ -5,5 +5,13 @@
 
     --color-accent: #90AEAD;
 
-    --color-text-primary: #FBE9D0
+    --color-text-primary: #FBE9D0;
+
+    --padding-default: 8px;
+    --padding-double: 16px;
+
+    --border-radius-default: 5px;
+
+    --font-family: 'Roboto', sans-serif;
+    --font-size-default: 1rem;
 }
