@@ -11,7 +11,7 @@ This repository serves as a template for creating and maintaining a modern React
 - **Code Quality & Formatting**: Biome.js configured to ensure consistent formatting and code quality.
 - **CSS Modules for Styling**: Components are styled using CSS Modules for scoped and maintainable styles.
 - **Tree-shaking Ready**: Ensures unused code is not bundled for efficient builds.
-- **CI/CD Ready**: Includes GitHub Actions for testing, linting, and releasing.
+- **CI/CD Ready**: Includes GitHub Actions for testing, linting, and releasing storybook.
 
 ## Styling
 
@@ -108,14 +108,7 @@ src/
 
 ## Publishing
 
-1. Update the version in `package.json`.
-2. Run the following command to publish:
-
-```bash
-npm publish
-```
-
-Ensure you have the necessary permissions and are logged in to npm.
+Publishing is out of scope for this template.
 
 ## Contributing
 
