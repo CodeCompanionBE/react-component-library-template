@@ -6,7 +6,7 @@ This repository serves as a template for creating and maintaining a modern React
 
 - **TypeScript Support**: Write components with type safety and better developer experience.
 - **Storybook Integration**: Document and visually test components with Storybook.
-- **ESM & CJS Builds**: Supports modern JavaScript and legacy environments with dual-module outputs.
+- **ESM Builds**: Supports modern JavaScript and proper treeshaking with ESM output.
 - **Automated Testing**: Preconfigured Vitest and React Testing Library for unit and snapshot tests.
 - **Code Quality & Formatting**: Biome.js configured to ensure consistent formatting and code quality.
 - **CSS Modules for Styling**: Components are styled using CSS Modules for scoped and maintainable styles.
